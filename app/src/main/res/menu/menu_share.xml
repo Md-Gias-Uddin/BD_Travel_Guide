@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:title="@string/share_text"
+            android:id="@+id/shareId"
+            app:showAsAction="never"
+            />
+        <item
+            android:title="Feedback"
+            android:id="@+id/feedbackId"
+            app:showAsAction="never"
+            />
+        <item
+            android:title="@string/rate_u_text"
+            android:id="@+id/rateUsId"
+            app:showAsAction="never"
+            />
+        <item
+            android:title="@string/about_us_text"
+            android:id="@+id/aboutUsId"
+            app:showAsAction="never"
+            />
+    <!--<item
+            android:title="notification"
+            android:id="@+id/notificationId"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_notifications_none_black_24dp"
+            />-->
+
+</menu>

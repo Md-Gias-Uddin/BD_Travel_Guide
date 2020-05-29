@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bdtravelzone">
+
+    <application
+        android:icon="@mipmap/bd"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NilacholActivity"
+            android:parentActivityName=".ZoneActivity"
+            />
+        <activity android:name=".NilgiriActivity" />
+        <activity android:name=".DimPaharDescriptionActivity" />
+        <activity
+            android:name=".listActivity"
+            android:parentActivityName=".DiaryActivity" />
+        <activity
+            android:name=".DiaryActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".InstructionsActivity" />
+        <activity
+            android:name=".ZoneActivity"
+            android:parentActivityName=".CtgDistrictActivity" />
+        <activity
+            android:name=".CtgDistrictActivity"
+            android:parentActivityName=".DivisionActivity" />
+        <activity
+            android:name=".DivisionActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".feedBackActivity" />
+        <activity android:name=".aboutUsActivity" />
+        <activity android:name=".rateUsActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ProgressBarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
